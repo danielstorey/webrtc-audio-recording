@@ -1,5 +1,3 @@
-var jsAudioNode;
-var audioInput;
 var Storage = {};
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var recorder = new AudioRecorder();
@@ -16,6 +14,8 @@ function AudioRecorder(config) {
 
     var self = this;
     var mediaStream;
+    var audioInput;
+    var jsAudioNode;
     var bufferSize = config.bufferSize || 4096;
     var sampleRate = config.sampleRate || 44100;
     var numberOfAudioChannels = config.numberOfAudioChannels || 2;
