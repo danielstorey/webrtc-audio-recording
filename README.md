@@ -18,6 +18,6 @@ The other thing to watch out for is to make sure that this context not 'garbage 
 
 <hr>
 
-Finally I just want to say that much of my work on this has been based on, (and copied!) from [Muaz Khan's](https://github.com/muaz-khan) rather brilliant [RecordRTC library](https://github.com/muaz-khan/RecordRTC), which includes video and gif recording as well.
+Finally I just want to say that much of my work on this has been based on, (and copied!) from [Muaz Khan's](https://github.com/muaz-khan) rather brilliant [RecordRTC](https://github.com/muaz-khan/RecordRTC) library, which includes video and gif recording as well.
 
 This is simply a lightweight example of how recording audio can work and not necessarily a reusable library in its current state.

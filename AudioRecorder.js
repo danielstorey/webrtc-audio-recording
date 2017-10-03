@@ -1,3 +1,9 @@
+// Based on Muaz Khan's RecordRTC Repository
+//
+// https://github.com/muaz-khan/RecordRTC
+//
+// www.MuazKhan.com
+
 var Storage = {};
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var recorder = new AudioRecorder();
