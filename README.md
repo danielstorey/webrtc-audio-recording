@@ -1,6 +1,10 @@
 # Audio Recording Using WebRTC
 
-This repository demonstrates how it is possible to record and playback audio in most modern browsers, and most notably - Safari 11 on both Mac and IOS.
+This is a proof of concept demonstrating how it is possible to record and playback audio in most modern browsers, and most notably - Safari 11 on both Mac and IOS. For an easy to impliment reusable plugin please see 
+
+[https://github.com/danielstorey/WebAudioTrack](https://github.com/danielstorey/WebAudioTrack) 
+
+This repo will not be updated any further but the demo will remain here as well as the notes below, containing crucial information for anyone wanting to work with the WebRTC API.
 
 #### [Click here](https://danielstorey.github.io/webrtc-audio-recording/) for the demo
 
