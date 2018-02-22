@@ -87,7 +87,8 @@ function AudioRecorder(config) {
     }
 
     function clearRecordedData() {
-            leftChannel = rightChannel = [];
+            leftChannel = [];
+            rightChannel = [];
             recordingLength = 0;
             isAudioProcessStarted = false;
             recording = false;
